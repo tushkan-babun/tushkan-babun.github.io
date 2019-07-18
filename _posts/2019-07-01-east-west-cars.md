@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Aleksei Petukhov, Unborn Developer, Launches First Site"
+title: "Aleksei Petukhov, Unborn Developer. Launches his first website"
 date: 2019-07-01
 ---
 
