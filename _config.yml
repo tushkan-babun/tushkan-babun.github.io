@@ -1,3 +1,4 @@
 name: Aleksei Petukhov, Unborn Developer
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+permalink: /about/:title
