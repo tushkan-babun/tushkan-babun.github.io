@@ -1,0 +1,6 @@
+name: Aleksei Petukhov, Unborn Developer
+markdown: kramdown
+plugins:
+  - jemoji
+permalink: /blog/:year/:month/:day/:title
+permalink: /about/:title
