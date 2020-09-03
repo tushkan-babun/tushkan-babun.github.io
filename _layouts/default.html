@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<script type='text/javascript'
+			src='https://platform-api.sharethis.com/js/sharethis.js#property=5dd0c7d6b16fb3001278cc9e&cms=sop'
+			async='async'></script>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+			{% include analytics.html %}
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+
+			{{ content }}
+
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+            <li><a href="mailto:akl02102264269@gmail.com">email</a></li>
+            <li><a href="https://github.com/tushkan-babun">github.com/tushkan-babun</a></li>
+      <!--      <li><a href="http://tushkan-babun.github.io/blog/atom.xml">RSS</a></li> -->
+      </ul>
+		</footer>
+		<script async type="text/javascript"
+		src="https://userlike-cdn-widgets.s3-eu-west-1.amazonaws.com/83b053867fa363cda18ac2989b538acc1f480b38c17750cd70faf150005c362d.js">
+		</script>
+		<div class="sharethis-inline-follow-buttons"></div>
+		</body>
+	</html>
